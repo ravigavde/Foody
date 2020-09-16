@@ -1,0 +1,501 @@
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+    html,
+    body,
+    .body1,
+    .body2 {
+        border: 0px;
+        margin: 0px;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    li,
+    .nav_btn,
+    .morebtn,
+    .article,
+    .para,
+    .para2,
+    .tagline,.book-tag {
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .head2,
+    .specialities,
+    .about_dishes,
+    .our-menu,.book-table,label,.footer-name,.social {
+        font-family: 'Noto Serif', serif;
+
+    }
+
+    .head {
+        height: 90px;
+        width: auto;
+        border: 3px solid black;
+        background-color: black;
+        vertical-align: middle;
+    }
+
+    .tag {
+        position: relative;
+        display: inline-block;
+        left: 86px;
+        top: 23px;
+        color: white;
+    }
+
+    .nav {
+        display: inline-block;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 18px;
+        border-left: 2px solid white;
+        width: auto;
+        height: 19px;
+        position: relative;
+        left: 160px;
+        margin-left: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .left {
+        position: relative;
+        float: right;
+        color: white;
+        height: 45px;
+        width: 783px;
+        top: 13px;
+        right: 30px;
+        overflow: hidden;
+    }
+
+    .menu_icon {
+        position: relative;
+        left: 200px;
+        top: 5px;
+    }
+
+    .nav_btn {
+        width: 90px;
+        height: 42px;
+        font-size: 18px;
+        position: relative;
+        left: 220px;
+        border: 2px rgb(74, 171, 0);
+        background-color: #4AAB00;
+        color: white;
+        border-radius: 2px;
+    }
+
+    #home {
+        border: 0px;
+    }
+
+    .body1,
+    .body2 {
+        width: auto;
+        height: 800px;
+        overflow: hidden;
+        /* border: 3px solid black; */
+    }
+
+    .banner {
+        height: 800px;
+        width: 100%;
+        object-fit: cover;
+        display: inline-block;
+        position: relative;
+    }
+
+    .conatiner {
+        display: inline-block;
+        position: relative;
+        color: white;
+        width: 100%;
+        height: 300px;
+        top: -610px;
+        left: 247px;
+    }
+
+    .heading {
+        color: white;
+        font-size: 60px;
+
+        display: inline-block;
+        position: relative;
+    }
+
+    .para {
+        color: white;
+        text-align: left;
+        position: relative;
+        font-size: 20px;
+        width: 35%;
+    }
+
+    .morebtn {
+        width: 125px;
+        height: 42px;
+        font-size: 18px;
+        position: relative;
+        top: 44px;
+        border: 2px rgb(74, 171, 0);
+        background-color: #4AAB00;
+        color: white;
+        border-radius: 2px;
+    }
+
+    .body2 {
+        height: auto;
+        width: 100%;
+    }
+
+    .head2 {
+        font-weight: 300;
+        color: #4AAB00;
+        font-size: 60px;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    h2:before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 1px;
+        bottom: 0;
+        left: 0%;
+        border-bottom: 2px solid #4AAB00;
+    }
+
+    .para2 {
+        display: inline-block;
+        width: 32%;
+        height: 500px;
+        margin-left: 185px;
+        margin-top: 100px;
+        font-size: 18px;
+    }
+
+    .about-image {
+        width: 604px;
+        height: 600px;
+        padding-left: 5px;
+        float: right;
+        margin-top: 150px;
+
+    }
+
+    .abt-img {
+        object-fit: cover;
+        width: 402px;
+        height: 400px;
+        box-shadow: 10px 10px 5px #ccc;
+    }
+
+    .about-details-btn {
+        width: 125px;
+        height: 42px;
+        font-size: 18px;
+        border: 2px rgb(74, 171, 0);
+        background-color: #4AAB00;
+        color: white;
+        border-radius: 2px;
+
+    }
+
+    .body3 {
+        background-image: url("/images/speciality_bg.jpg");
+        height: 720px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .container3 {
+        height: 300px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .specialities {
+        font-size: 64px;
+        margin-top: 93px;
+        margin-bottom: 24px;
+        text-align: center;
+        color: #4AAB00;
+    }
+
+    .about_dishes {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .fist-img {
+        display: inline-block;
+        background-color: aliceblue;
+        height: 195px;
+        width: 177px;
+    }
+
+    .dishes {
+        height: 149px;
+        width: 173px;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+
+    .dish_price {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        color: rgb(88, 88, 88);
+    }
+
+    .body4 {
+        /* background-image: url("images/menu_bg.png"); */
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .menu-bg {
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+        height: 997px;
+    }
+
+    .left-menu,
+    .right-menu {
+        display: inline-block;
+        width: 49%;
+
+    }
+
+    .section {
+        font-size: 32px;
+        color: #4AAB00;
+        text-decoration: underline;
+        font-size: 24px;
+        margin-bottom: 80px;
+    }
+
+    .food {
+        font-size: 20px;
+        color: #4AAB00;
+        margin-bottom: 20px;
+    }
+
+    .item-info {
+        display: inline-block;
+        width: 550px;
+        font-size: 20px;
+        color: rgb(88, 88, 88);
+        font-weight: bolder;
+        margin-bottom: 0px;
+    }
+
+    .price {
+        display: inline;
+        font-size: 40px;
+        font-weight: bolder;
+        color: #4AAB00;
+        text-align: left;
+        padding-left: 24px;
+    }
+
+    #hawaian-price,
+    #margherita-price {
+        padding-left: 43px;
+    }
+
+    #mexicana-price {
+        padding-left: 63px;
+    }
+
+    #lemo-mexicana-price,
+    #lemo-hawaian-price,
+    #lemo-chicken-price {
+        padding-left: 43px;
+    }
+
+    .container4 {
+        display: inline-block;
+        margin-left: 140px;
+        width: auto;
+        margin-bottom: 0px;
+        margin-top: -923px;
+    }
+
+    .our-menu {
+        text-align: center;
+        color: #4AAB00;
+        margin-bottom: 25px;
+        margin-top: -77px;
+        margin-left: -8%;
+    }
+
+    .tagline {
+        text-align: center;
+        color: rgb(88, 88, 88);
+        margin-bottom: 40px;
+        font-size: 20px;
+        margin-left: -76px;
+    }
+
+    #lemo,
+    #pizza {
+        margin-bottom: -12px;
+    }
+
+    .our-menu {
+        margin-bottom: 0px;
+    }
+
+    .menu-button {
+        width: 125px;
+        height: 42px;
+        font-size: 18px;
+        border: 2px rgb(74, 171, 0);
+        background-color: #4AAB00;
+        color: white;
+        border-radius: 2px;
+        margin-left: 41%;
+        margin-top: 100px;
+        position: relative;
+        top: -58px;
+    }
+
+    .last-bg {
+        width: 100%;
+        object-fit: cover;
+        display: inline-block;
+        height: 646px;
+    }
+
+    .book-table {
+        font-size: 60px;
+        color: #4AAB00;
+
+    }
+
+    .input {
+        display: inline-block;
+        width: 219px;
+        margin-left: 30px;
+    }
+
+    .book-table {
+        text-align: center;
+    }
+
+    .book-tag {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+    }
+
+    .input-details {
+        margin-left: 352px;
+        margin-top: 50px;
+    }
+
+    .container5 {
+        margin-top: -640px;
+    }
+
+    label {
+        color: #4AAB00;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+
+    .book-btn {
+        margin-left: 800px;
+        margin-top: 40px;
+        width: 125px;
+        height: 42px;
+        font-size: 18px;
+        border: 2px rgb(74, 171, 0);
+        background-color: #4AAB00;
+        color: white;
+        border-radius: 2px;
+        margin-top: 100px;
+        position: relative;
+        top: -58px;
+
+
+
+    }
+
+    #people,
+    .people-label {
+        margin-left: 0px;
+    }
+
+    .name-input,
+    .date-input,
+    .time-input,
+    .people-input {
+        width: 200px;
+        height: 30px;
+    }
+
+    .body5 {
+        margin-top: -20x;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 124px;
+        background-color: black;
+        opacity: 75%;
+        margin-top: 50px;
+    }
+
+    .left-footer {
+        display: inline-block;
+        border: 3px solid black;
+        color: #4AAB00;
+        margin-left: 80px;
+        opacity: 100%;
+    }
+
+    .copyright {
+        color: white;
+    }
+
+    .social {
+        font-size: 24px;
+        margin-left: 33px;
+    }
+
+    .facebook,
+    .twitter,
+    .google,
+    .youtube {
+        height: 32px;
+        width: 32px;
+        border: 1px solid white;
+    }
+
+    .right-footer {
+        opacity: 100%;
+        border: 3px solid black;
+        color: #4AAB00;
+        float: right;
+        margin-top: 4px;
+        margin-right: 80px;
+    }
+   
