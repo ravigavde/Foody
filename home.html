@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/home.css">
     <meta name="description" content="This is a food website">
 </head>
 
 <body>
     <header class="head">
-        <img src="images/logo.png" alt="Logo" class="tag">
+        <a href="" class="tag"><img src="images/logo.png" alt="Logo"></a>
         <div class="left">
             <ul class="nav">
                 <li id="home">Home</li>
@@ -20,15 +21,16 @@
                 <li id="services">Services</li>
                 <li id="contact">Contact</li>
             </ul>
-            <input type="image" src="images/menu_icon.png" alt="Menu_icon" class="menu_icon">
-            <input type="button" value="Buy Now" class="nav_btn">
+            <div class="menu_icon">
+                <img src="images/menu_icon.png" class="menu_icon" alt="">
+            </div>
+            <a href="" class="nav_btn">Buy Now</a>
         </div>
     </header>
 
-    <div class="body1">
-        <img src="images/banner_image.png" alt="" class="banner">
+    <section class="body1">
         <div class="conatiner">
-            <h1 class="heading"><b>Making Food Taste Better.</b></h1>
+            <h1 class="heading">Making Food Taste Better.</h1>
             <p class="para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad libero commodi saepe rerum vitae dolores
                 modi illo tempora, laborum, debitis omnis. Eum expedita minima ex mollitia suscipit minus. Quas
@@ -36,30 +38,33 @@
                 ratione ut non voluptas nam maiores voluptatum similique veritatis libero perferendis? Impedit,
                 mollitia.
             </p>
-            <input type="button" value="More Details" class="morebtn">
+            <a href="" class="morebtn">More Details</a>
         </div>
-    </div>
+    </section>
 
     <div class="body2">
+
         <div class="para2">
-            <h2 class="head2">About Us</h2><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis mollitia accusantium ex perspiciatis
-            praesentium. Debitis rerum perspiciatis necessitatibus? Vel veniam consequatur fugiat accusamus fugit
-            nesciunt, ratione laboriosam, nisi maxime sint recusandae repellendus, iure voluptatem nihil.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis enim eum, amet rerum perspiciatis
-            voluptatum totam repellendus vitae ad ipsam fuga repudiandae ab illo culpa fugit! Enim officiis accusamus
-            distinctio obcaecati ad?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br><br><br><input type="button" value="More Details" class="about-details-btn">
+            <h2 class="head2">About Us</h2>
+            <p class="about_para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis mollitia accusantium ex perspiciatis
+                praesentium. Debitis rerum perspiciatis necessitatibus? Vel veniam consequatur fugiat accusamus fugit
+                nesciunt, ratione laboriosam, nisi maxime sint recusandae repellendus, iure voluptatem nihil.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis enim eum, amet rerum perspiciatis
+                voluptatum totam repellendus vitae ad ipsam fuga repudiandae ab illo culpa fugit! Enim officiis
+                accusamus
+                distinctio obcaecati ad?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="" class="about-details-btn">More Details</a>
         </div>
         <div class="about-image">
             <img src="images/about_img.png" alt="About-image" class="abt-img">
         </div>
     </div>
-
+    
     <div class="body3">
         <div class="container3">
-            <br>
             <h1 class="specialities">Our Specialities</h1>
             <p class="about_dishes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dignissimos molestias?
             </p>
@@ -81,76 +86,75 @@
     </div>
 
     <div class="body4">
-        <img src="images/menu_bg.png" alt="" class="menu-bg">
         <div class="container4">
-            <br>
-            <h1 class="our-menu">Our Menu</h1>
+                <h1 class="our-menu">Our Menu</h1>
             <p class="tagline">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
 
-            <div class="right-menu">
-
-                <h3 class="section" id="lemo">LEMO</h3>
-                <h3 class="food" id="mexicana">Mexicana</h3>
-                <p class="item-info" id="mexicana-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
-                    amet
-                    ligula..........................................................................................
-                <p class="price" id="lemo-mexicana-price">19&dollar;</p>
-                </p>
-
-                <h3 class="food" id="margherita">Margherita</h3>
-                <p class="item-info" id="margherita-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper
-                    sit amet
-                    ligula..........................................................................................
-                <p class="price" id="lemo-margherita-price">106&dollar;</p>
-                </p>
-
-                <h3 class="food" id="hawaian">Hawaian</h3>
-                <p class="item-info" id="lemo-hawaian-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper
-                    sit
-                    amet
-                    ligula..........................................................................................
-                <p class="price" id="lemo-hawaian-price">15&dollar;</p>
-                </p>
-
-                <h3 class="food" id="chicken">Chicken</h3>
-                <p class="item-info" id="Chicken-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
-                    amet
-                    ligula..........................................................................................
-                <p class="price" id="lemo-chicken-price">14&dollar;</p>
+            <div class="menu">
+                <div class="right-menu">
+    
+                    <h3 class="section" id="lemo">LEMO</h3>
+                    <h3 class="food" id="mexicana">Mexicana</h3>
+                    <p class="item-info" id="mexicana-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+                        amet
+                        ligula....................
+                    <p class="price" id="lemo-mexicana-price">19&dollar;</p>
+                    </p>
+    
+                    <h3 class="food" id="margherita">Margherita</h3>
+                    <p class="item-info" id="margherita-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper
+                        sit amet
+                        ligula....................
+                    <p class="price" id="lemo-margherita-price">106&dollar;</p>
+                    </p>
+    
+                    <h3 class="food" id="hawaian">Hawaian</h3>
+                    <p class="item-info" id="lemo-hawaian-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper
+                        sit
+                        amet
+                        ligula....................
+                    <p class="price" id="lemo-hawaian-price">15&dollar;</p>
+                    </p>
+    
+                    <h3 class="food" id="chicken">Chicken</h3>
+                    <p class="item-info" id="Chicken-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+                        amet
+                        ligula....................
+                    <p class="price" id="lemo-chicken-price">14&dollar;</p>
+    
+                </div>
+    
+                <div class="left-menu">
+                    <h3 class="section" id="pizza">PIZZA</h3>
+                    <h3 class="food" id="mexicana">Mexicana</h3>
+                    <p class="item-info" id="mexicana-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula....................
+                    <p class="price" id="mexicana-price">9&dollar;</p>
+                    </p>
+    
+                    <h3 class="food" id="margherita">Margherita</h3>
+                    <p class="item-info" id="margherita-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper
+                        sit amet
+                        ligula....................
+                    <p class="price" id="margherita-price">16&dollar;</p>
+                    </p>
+    
+                    <h3 class="food" id="hawaian">Hawaian</h3>
+                    <p class="item-info" id="hawaian-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+                        amet
+                        ligula....................
+                    <p class="price" id="hawaian-price">15&dollar;</p>
+                    </p>
+    
+                    <h3 class="food" id="chicken">Chicken</h3>
+                    <p class="item-info" id="Chicken-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
+                        amet
+                        ligula....................
+                    <p class="price" id="chicken-price">114&dollar;</p>
+                    </p>
+                </div>
 
             </div>
-
-            <div class="left-menu">
-                <h3 class="section" id="pizza">PIZZA</h3>
-                <h3 class="food" id="mexicana">Mexicana</h3>
-                <p class="item-info" id="mexicana-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
-                    amet
-                    ligula..........................................................................................
-                <p class="price" id="mexicana-price">9&dollar;</p>
-                </p>
-
-                <h3 class="food" id="margherita">Margherita</h3>
-                <p class="item-info" id="margherita-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper
-                    sit amet
-                    ligula..........................................................................................
-                <p class="price" id="margherita-price">16&dollar;</p>
-                </p>
-
-                <h3 class="food" id="hawaian">Hawaian</h3>
-                <p class="item-info" id="hawaian-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
-                    amet
-                    ligula..........................................................................................
-                <p class="price" id="hawaian-price">15&dollar;</p>
-                </p>
-
-                <h3 class="food" id="chicken">Chicken</h3>
-                <p class="item-info" id="Chicken-info">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit
-                    amet
-                    ligula..........................................................................................
-                <p class="price" id="chicken-price">114&dollar;</p>
-                </p>
-            </div>
-            <input type="button" value="More Details" class="menu-button">
+            <a href="" class="menu-button">More Details</a>
         </div>
     </div>
     <div class="body5">
@@ -179,31 +183,41 @@
                     <input type="number" name="people" id="people" class="people-input" placeholder="1 People">
                 </div>
             </div>
-            <input type="button" value="Book Now" class="book-btn">
+            <a href="" class="book-btn">Book Now</a>
         </div>
 
     </div>
     </div>
 </body>
-<br>
 <footer class="footer">
     <div class="left-footer">
-        <h1 class="footer-name">Foody.</h1>
+        <a href="" class="footer_logo"><img src="/images/footer_logo.png" alt=""></a>
         <p class="copyright">&copy; Foody All Right Reserved</p>
     </div>
     <div class="right-footer">
         <h1 class="social">Follow</h1>
-        <a href="https://www.facebook.com/">
-            <img src="images/fb_icon.png" alt="" class="facebook">
-        </a>
-        <a href="https://twitter.com/">
-            <img src="images/twitter_icon.png" alt="" class="twitter">
-        </a>
+        <div class="icon" id="fb-id">
+            <a href="https://www.facebook.com/">
+                <img src="images/fb_icon.png" alt="" class="icon-img">
+            </a>
+        </div>
+
+        <div class="icon"">
+            <a href="https://twitter.com/">
+                <img src="images/twitter_icon.png" alt="" class="icon-img">
+            </a>
+        </div>
+        <div class="icon"">
+             
         <a href="https://www.google.com/">
-            <img src="images/g_plus_icon.png" alt="" class="google">
+            <img src="images/g_plus_icon.png" alt="" class="icon-img">
         </a>
-        <a href="https://www.youtube.com/">
-            <img src="images/you_tube_icon.png" alt="" class="youtube">
-        </a>
+        </div>
+
+        <div class="icon"">
+            <a href="https://www.youtube.com/">
+                <img src="images/you_tube_icon.png" alt="" class="icon-img">
+            </a>
+        </div>      
 </footer>
 </html>
