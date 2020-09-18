@@ -99,7 +99,7 @@
     .banner {
         height: 800px;
         width: 100%;
-        object-fit: cover;
+        
         display: inline-block;
         position: relative;
     }
@@ -107,7 +107,7 @@
     .body1 {
         width: 100%;
         background-image: url("../images/banner_image.png");
-        object-fit: cover;
+        
         background-repeat: no-repeat;
         display: inline-block;
     }
@@ -207,7 +207,7 @@
 
     .body3 {
         background-image: url("../images/speciality_bg.jpg");
-        object-fit: cover;
+        
         height: 800px;
         width: 100%;
         background-size: cover;
@@ -258,11 +258,11 @@
         width: 100%;
         height: 800px;
         background-image: url("../images/menu_bg.png");
-        object-fit: cover;
+        
     }
 
     .menu-bg {
-        object-fit: cover;
+        
         display: inline-block;
         width: 100%;
         height: 997px;
@@ -356,7 +356,7 @@
 
     .last-bg {
         width: 100%;
-        object-fit: cover;
+        
         display: inline-block;
         height: 646px;
     }
@@ -396,7 +396,7 @@
         height: 695px;
         background-image: url("../images/footer_bg.jpg");
         background-repeat: no-repeat;
-        object-fit: cover;
+        
 
     }
 
