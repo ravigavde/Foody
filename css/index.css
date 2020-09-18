@@ -25,8 +25,6 @@
     }
 
     h1 {
-        font-size: 64px;
-        color: #4AAB00;
         font-family: 'Noto Serif', serif;
     }
 
@@ -37,9 +35,6 @@
     }
 
     .tag {
-        display: inline-block;
-        width: 126px;
-        height: 40px;
         margin: 25px 80px auto;
     }
 
@@ -65,12 +60,14 @@
     }
 
     .left {
-        float: right;
-        color: white;
-        height: 45px;
-        width: 655px;
-        margin-top: 28px;
+        display: inline-block;
+        margin-top: 23px;
+    }
 
+    .right {
+        margin-top: 28px;
+        float: right;
+        margin-right: 80px;
     }
 
     .nav_btn {
@@ -116,16 +113,15 @@
     }
 
     .conatiner {
-        color: white;
-        width: 640px;
-        height: 378px;
+        width: 788px;
+        height: 316px;
         margin: 233px 812px 233.5px 320px;
     }
 
     .heading {
         color: white;
         font-size: 60px;
-        width: 799px;
+        width: 788px;
     }
 
     .para {
@@ -149,6 +145,11 @@
         width: 100%;
     }
 
+    .container2 {
+        clear: both;
+        max-width: 100%;
+    }
+
     .head2 {
         font-family: 'Noto Serif', serif;
         font-weight: 300;
@@ -170,23 +171,17 @@
     .para2 {
         display: inline-block;
         width: 32%;
-        height: 435px;
+        height: 580px;
         margin: 131px 0px 0px 320px;
         font-size: 18px;
     }
 
     .about-image {
-        width: 471px;
-        height: 402px;
         float: right;
-        margin: 120px 63px;
-
+        margin: 120px 93px;
     }
 
     .abt-img {
-        object-fit: cover;
-        width: 402px;
-        height: 400px;
         box-shadow: 10px 10px 5px #ccc;
         margin-top: 10px;
     }
@@ -216,12 +211,6 @@
         height: 800px;
         width: 100%;
         background-size: cover;
-    }
-
-    .container3 {
-        height: 300px;
-        width: fit-content;
-        margin: auto;
     }
 
     .specialities {
@@ -331,7 +320,6 @@
 
     .container4 {
         width: 1337px;
-        height: 700px;
         margin: auto;
 
     }
@@ -350,6 +338,7 @@
     }
 
     .our-menu {
+        font-size: 60px;
         text-align: center;
         padding-top: 54px;
     }
@@ -408,7 +397,7 @@
         background-image: url("../images/footer_bg.jpg");
         background-repeat: no-repeat;
         object-fit: cover;
-       
+
     }
 
 
@@ -461,7 +450,6 @@
         display: inline-block;
         color: #4AAB00;
         margin-left: 80px;
-        opacity: 100%;
     }
 
     .copyright {
