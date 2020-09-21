@@ -1,5 +1,6 @@
-    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+   s
 
     html,
     body,
@@ -12,19 +13,15 @@
     html {
         height: 100%;
     }
-
-    li,
-    .nav_btn,
-    .morebtn,
-    .article,
-    .para,
-    .para2,
-    .tagline,
-    .book-tag {
-        font-family: 'Nunito', sans-serif;
+    
+    h1{
+        font-family: 'Noto Serif', serif;
+        font-weight: 700;
     }
-
-    h1 {
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .item-info,.dish_price,label,.book-btn,.copyright {
         font-family: 'Noto Serif', serif;
     }
 
@@ -32,6 +29,7 @@
         height: 90px;
         width: auto;
         background-color: black;
+        clear: both;
     }
 
     .tag {
@@ -71,9 +69,7 @@
     }
 
     .nav_btn {
-        width: 120px;
-        height: 42px;
-        font-size: 18px;
+        font-size: 16px;
         background-color: #4AAB00;
         color: white;
         margin-left: 20px;
@@ -99,7 +95,7 @@
     .banner {
         height: 800px;
         width: 100%;
-        
+
         display: inline-block;
         position: relative;
     }
@@ -107,7 +103,6 @@
     .body1 {
         width: 100%;
         background-image: url("../images/banner_image.png");
-        
         background-repeat: no-repeat;
         display: inline-block;
     }
@@ -128,8 +123,8 @@
         color: white;
         text-align: left;
         font-size: 20px;
-        width: 613px;
-        margin: 39.5px 41px 40px 0px;
+        width: 723px;
+        margin: 39.5px 41px 60px 0px;
     }
 
     .morebtn {
@@ -141,6 +136,7 @@
     }
 
     .body2 {
+        padding-top: 120px;
         height: 800px;
         width: 100%;
     }
@@ -152,14 +148,14 @@
 
     .head2 {
         font-family: 'Noto Serif', serif;
-        font-weight: 300;
+        font-weight: 700;
         color: #4AAB00;
         font-size: 60px;
         position: relative;
         margin-bottom: 20px;
     }
 
-    h2:before {
+    .head2:before {
         content: "";
         position: absolute;
         width: 170px;
@@ -170,15 +166,14 @@
 
     .para2 {
         display: inline-block;
-        width: 32%;
-        height: 580px;
-        margin: 131px 0px 0px 320px;
+        width: 436;
+        margin: 0px 0px 0px 320px;
         font-size: 18px;
     }
 
     .about-image {
         float: right;
-        margin: 120px 93px;
+        margin: 0px 93px;
     }
 
     .abt-img {
@@ -200,48 +195,49 @@
         color: white;
         text-decoration: none;
         padding: 15px 30px 14px 28px;
-        width: 101px;
-        margin-top: 50px;
+        width: 119px;
+        margin-top: 161px;
 
     }
 
     .body3 {
-        background-image: url("../images/speciality_bg.jpg");
-        
-        height: 800px;
         width: 100%;
+        height: 800px;
+        background-image: url("../images/speciality_bg.jpg");
         background-size: cover;
+        padding-top: 120px;
     }
 
     .specialities {
-        font-size: 64px;
+        font-size: 60px;
         text-align: center;
         color: #4AAB00;
-        padding-top: 131px;
     }
 
     .all_dishes {
-        width: 720px;
+        width: 843px;
         margin: auto;
     }
 
     .about_dishes {
+        width: 707px;
         color: white;
-        font-size: 18px;
+        font-size: 24px;
         text-align: center;
+        margin: auto;
         margin-bottom: 95px;
-        margin-top: 20px;
+        margin-top: 29px;
     }
 
     .fist-img {
         display: inline-block;
         background-color: aliceblue;
+        margin-left: 30px;
         height: 195px;
         width: 177px;
     }
 
     .dishes {
-        height: 149px;
         width: 173px;
         padding-left: 2px;
         padding-top: 2px;
@@ -249,20 +245,24 @@
 
     .dish_price {
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bolder;
-        color: rgb(88, 88, 88);
+        color: #585858;
     }
 
     .body4 {
+        padding-top: 120px;
+        padding-bottom: 100px;
         width: 100%;
         height: 800px;
         background-image: url("../images/menu_bg.png");
-        
+        background-size: cover;
+        background-repeat: no-repeat;
+
     }
 
     .menu-bg {
-        
+
         display: inline-block;
         width: 100%;
         height: 997px;
@@ -272,11 +272,12 @@
     .right-menu {
         display: inline-block;
         width: 535px;
+        margin-left: 102px;
     }
 
     .menu {
         width: 1110px;
-        margin-left: 161px;
+        margin:auto;
     }
 
     .section {
@@ -285,25 +286,24 @@
         color: #4AAB00;
         text-decoration: underline;
         font-size: 32px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .food {
         font-family: 'Noto Serif', serif;
-        font-weight: 300;
+        font-weight: 501;
         font-size: 24px;
         color: #75C23A;
-        ;
-        margin-bottom: 20px;
+        margin-bottom: 4px;
     }
 
     .item-info {
         display: inline-block;
-        width: 365px;
+        width: 386px;
         font-size: 20px;
-        color: rgb(88, 88, 88);
+        color: #717070;
         font-weight: bolder;
-        margin-bottom: 0px;
+        margin-bottom: 47px;
     }
 
     .price {
@@ -315,12 +315,13 @@
         font-weight: bolder;
         color: #4AAB00;
         text-align: right;
-        margin-left: 0px;
+        position: relative;
+        bottom: 7px;
     }
 
     .container4 {
-        width: 1337px;
-        margin: auto;
+        width: 1280px;
+        margin: 0px auto;
 
     }
 
@@ -331,16 +332,22 @@
 
     .tagline {
         text-align: center;
-        color: rgb(88, 88, 88);
+        color: #52524B;
         margin-top: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 16px;
         font-size: 20px;
+    }
+    
+    .underline{
+        border: 2px solid #4AAB00;
+        width: 120px;
+        margin: auto;
+        margin-bottom: 45px;
     }
 
     .our-menu {
         font-size: 60px;
         text-align: center;
-        padding-top: 54px;
     }
 
     .menu-button {
@@ -350,13 +357,14 @@
         color: white;
         text-decoration: none;
         padding: 15px 30px 14px 28px;
-        width: 95px;
+        width: 100px;
         margin: 50px auto;
+        margin-bottom: 0px;
     }
 
     .last-bg {
         width: 100%;
-        
+
         display: inline-block;
         height: 646px;
     }
@@ -364,8 +372,6 @@
     .book-table {
         font-size: 60px;
         color: #4AAB00;
-        padding-top: 108px;
-
     }
 
     .input {
@@ -396,13 +402,14 @@
         height: 695px;
         background-image: url("../images/footer_bg.jpg");
         background-repeat: no-repeat;
-        
-
+        background-size: cover;
+        padding-top: 120px;
     }
 
 
     label {
-        color: #4AAB00;
+        line-height: 50px;
+        color:#86C858;
         font-weight: bolder;
         font-size: 24px;
     }
@@ -418,7 +425,7 @@
         background-color: #4AAB00;
         border: 0px;
         padding: 15px 30px 14px 28px;
-        width: 144px;
+        width: 180px;
     }
 
     #people,
@@ -439,11 +446,12 @@
 
 
     .footer {
-        margin-top: 121px;
+        margin-top: 204px;
         width: 100%;
         height: 130px;
         background-color: rgb(1, 10, 20);
         opacity: 0.8;
+        clear: both;
     }
 
     .left-footer {
@@ -478,6 +486,14 @@
     #fb-id {
         position: relative;
         top: 2px;
+    }
+    #yt-id{
+        position: relative;
+        top: 2px;
+    }
+    #g-id{
+        position: relative;
+        top: 1px;
     }
 
     .left-footer {
